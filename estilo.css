@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+header {
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    header {
+    position: relative;
+}
+}
+
+nav {
+    background-color: #37474f;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: white;
+    width: 80%;
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #263238;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 5px;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+a {
+    color: #1565c0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #263238;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #455a64;
+}
+
+footer {
+    text-align: center;
+    background-color: #263238;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+#temaBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 8px 12px;
+    font-size: 12px;
+}
+
+
+/* Tema escuro */
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode section {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode h2 {
+    color: white;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+    background-color: #444;
+    color: white;
+    border: 1px solid #999;
+}
+.botao-tema-container {
+    text-align: center;
+    margin-top: 20px;
+}
