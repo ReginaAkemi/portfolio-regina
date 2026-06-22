@@ -19,6 +19,9 @@ nav {
     background-color: #37474f;
     text-align: center;
     padding: 12px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav a {
@@ -39,6 +42,7 @@ section {
     margin: 25px auto;
     padding: 20px;
     border-radius: 8px;
+    scroll-margin-top: 80px;
 }
 
 h2 {
